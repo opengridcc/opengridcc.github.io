@@ -1,0 +1,71 @@
+<div *ngIf="loaded">
+  <div class="sub-header">
+    <div class="row">
+      <div class="col-12">
+        <div class="dropdown-container">
+          <h3 *ngIf="selectedAnalysis">
+            {{selectedAnalysis.name}}
+            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle btn-xs" type="button" aria-expanded="true">
+              <span class="caret"></span>
+            </button>
+            <ul *ngIf="analyses" class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <li [ngClass]="{'active': analysis.id == selectedAnalysis.id}" *ngFor="let analysis of analyses" class="dropdown-item" [routerLink]="['/analysis', analysis.id]"
+                (click)="reload()">
+                <a>{{analysis.name}}</a>
+              </li>
+            </ul>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="btn-group" role="group">
+        <button [ngClass]="{'active': step == 'data'}" (click)="step = 'data'" type="button" class="btn btn-default">Data</button>
+        <button [ngClass]="{'active': step == 'code'}" (click)="step = 'code'" type="button" class="btn btn-default">Code</button>
+        <button [ngClass]="{'active': step == 'result'}" (click)="step = 'result'" type="button" class="btn btn-default">Result</button>
+      </div>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-sm-12 col-md-10 offset-md-1' [ngSwitch]="step">
+
+      <div *ngSwitchCase="'data'" style="position: relative">
+        <div class="download-link hidden-sm-down">
+          <a target="_self" [href]="'./assets/analyses-data/' + selectedAnalysis.id + '.csv'" [download]="selectedAnalysis.id + '-data.csv'">
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </a>
+        </div>
+        <pre class="language-python">
+          <table>
+            <tr *ngFor="let x of data">
+              <td [ngClass]="{'table-number': isNumber(y), 'table-timestamp': isValidDate(y)}" *ngFor="let y of x">{{ y }}</td>
+            </tr>
+          </table>
+        </pre>
+      </div>
+
+      <div *ngSwitchCase="'code'" style="position: relative">
+        <div class="download-link hidden-sm-down">
+          <a target="_self" [href]="'./assets/analyses-code/' + selectedAnalysis.id + '.py'" [download]="selectedAnalysis.id + '-code.py'">
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </a>
+          <a>
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        <handy-syntax-highlighter *ngIf="code" [language]="'python'" [content]="code"></handy-syntax-highlighter>
+      </div>
+
+      <div *ngSwitchCase="'result'" class="row">
+        <div class="col-md-12 col-lg-4">
+          <img style="width: 100%" [src]="'./assets/analyses-result/img/' + selectedAnalysis.result.image">
+        </div>
+        <div class="col-md-12 col-lg-8 description">
+          {{ description }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

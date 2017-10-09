@@ -1,0 +1,28 @@
+.involve-pane {
+    background: #f5f2f0;
+    padding: 1em;
+    margin: .5em 0;
+    color: #2c3e50;
+    text-shadow: 0 1px white;
+    text-align: left;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+}
+
+.btn-involve {
+    background: #d6ac4a;
+    border: 3px solid #d6ac4a;
+    color: white;
+}
+
+.btn-involve:hover {
+    border-color: #f5f2f0;
+}
+
+p > a {
+    color: #07a;
+}
