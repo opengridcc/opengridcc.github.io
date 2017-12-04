@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "update-dist": "git fetch origin master && git subtree pull --prefix=dist origin master --squash",
-    "publish": "git subtree push --prefix=dist origin test"
+    "pull-dist": "git fetch origin master && git subtree pull --prefix=dist origin master --squash",
+    "push-dist": "git subtree push --prefix=dist origin master"
   },
   "private": true,
   "dependencies": {
