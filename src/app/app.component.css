@@ -1,0 +1,34 @@
+.navbar {
+    background: #2c3e50 !important;
+    border-bottom: 0.5px solid #d6ac4a !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+.nav-link.active {
+    color: #d6ac4a !important;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.sign-in {
+    color: #d6ac4a;
+    border-color: #d6ac4a;
+}
+
+.sign-in:hover {
+    color: #fff;
+    background-color: #d6ac4a;
+    border-color: #d6ac4a;
+}
+
+.logo {
+    height: 70px;
+}
+
+.navbar-toggler {
+    margin-top: 15px;
+}

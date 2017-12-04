@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.row {
+    margin: 0 !important;
+}
+
+app-analysis-page, app-home-page, app-about-page, app-live-page, app-blog-page {
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+}
