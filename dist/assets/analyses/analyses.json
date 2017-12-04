@@ -12,22 +12,12 @@
     },
     { 
         "image": "days.png",
-        "name": "Daily overview",
+        "name": "Dayly overview",
         "id": "days",
         "code": "days.py",
         "result": {
             "image": "days.png",
             "description": "days.txt"
-        }
-    },
-    { 
-        "image": "toggle_count.png",
-        "name": "Toggle Count",
-        "id": "toggle",
-        "code": "toggle_count.py",
-        "result": {
-            "image": "toggle_count.png",
-            "description": "toggle_count.txt"
         }
     }
 ]
