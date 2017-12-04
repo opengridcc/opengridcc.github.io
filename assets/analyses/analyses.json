@@ -23,7 +23,7 @@
     { 
         "image": "toggle_count.png",
         "name": "Toggle Count",
-        "id": "toggle",
+        "id": "toggle_count",
         "code": "toggle_count.py",
         "result": {
             "image": "toggle_count.png",
