@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "git fetch origin master && git subtree pull --prefix=dist origin master --squash && git subtree push --prefix=dist origin test"
   },
   "private": true,
   "dependencies": {
