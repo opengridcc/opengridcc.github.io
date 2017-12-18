@@ -1,5 +1,5 @@
 [
-    { 
+    {
         "image": "mvar.png",
         "name": "Multivariable linear regression",
         "id": "mvar",
@@ -10,7 +10,7 @@
             "description": "mvar.txt"
         }
     },
-    { 
+    {
         "image": "days.png",
         "name": "Dayly overview",
         "id": "days",
@@ -18,6 +18,16 @@
         "result": {
             "image": "days.png",
             "description": "days.txt"
+        }
+    },
+    {
+        "image": "toggle_count.png",
+        "name": "Toggle Count",
+        "id": "toggle_count",
+        "code": "toggle_count.py",
+        "result": {
+            "image": "toggle_count.png",
+            "description": "toggle_count.txt"
         }
     }
 ]
