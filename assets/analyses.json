@@ -1,0 +1,14 @@
+[
+    {
+        "image": "toggle-count/img.png",
+        "name": "Toggle Count",
+        "id": "toggle-count",
+        "code": "toggle-count/code.html"
+    },
+    {
+        "image": "degree-days/img.png",
+        "name": "Compute degree-days",
+        "id": "degree-days",
+        "code": "degree-days/code.html"
+    }
+]
