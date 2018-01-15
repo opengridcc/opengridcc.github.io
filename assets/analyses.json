@@ -10,5 +10,11 @@
         "name": "Compute degree-days",
         "id": "degree-days",
         "code": "degree-days/code.html"
+    },
+    {
+        "image": "multi-variabele/img.png",
+        "name": "Multi-variable linear regression",
+        "id": "mvar",
+        "code": "multi-variable/code.html"
     }
 ]
