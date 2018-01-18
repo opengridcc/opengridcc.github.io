@@ -12,6 +12,12 @@
         "code": "toggle-count/code.html"
     },
     {
+        "image": "standby/img.png",
+        "name": "Standby power consumption",
+        "id": "standby",
+        "code": "standby/code.html"
+    },
+    {
         "image": "degree-days/img.png",
         "name": "Compute degree-days",
         "id": "degree-days",
