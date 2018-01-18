@@ -1,5 +1,11 @@
 [
     {
+        "image": "getting-started/img.png",
+        "name": "Getting started and loading sample data",
+        "id": "getting-started",
+        "code": "getting-started/code.html"
+    },
+    {
         "image": "toggle-count/img.png",
         "name": "Toggle Count",
         "id": "toggle-count",
