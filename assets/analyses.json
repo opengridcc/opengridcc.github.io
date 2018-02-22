@@ -1,32 +1,30 @@
 [
     {
-        "image": "getting-started/img.png",
-        "name": "Getting started and loading sample data",
-        "id": "getting-started",
-        "code": "getting-started/code.html"
-    },
-    {
         "image": "toggle-count/img.png",
         "name": "Toggle Count",
         "id": "toggle-count",
-        "code": "toggle-count/code.html"
+        "code": "toggle-count/code.html",
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FGas%20Toggle%20Demo.ipynb"
     },
     {
         "image": "standby/img.png",
         "name": "Standby power consumption",
         "id": "standby",
-        "code": "standby/code.html"
+        "code": "standby/code.html",
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FStandby%20power.ipynb"
     },
     {
         "image": "degree-days/img.png",
         "name": "Compute degree-days",
         "id": "degree-days",
-        "code": "degree-days/code.html"
+        "code": "degree-days/code.html",
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FCompute%20degree-days.ipynb"
     },
     {
         "image": "multi-variable/img.png",
         "name": "Multi-variable linear regression",
         "id": "mvar",
-        "code": "multi-variable/code.html"
+        "code": "multi-variable/code.html",
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FMulti-variable%20Linear%20Regression%20Demo.ipynb"
     }
 ]
