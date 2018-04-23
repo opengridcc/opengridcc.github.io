@@ -26,5 +26,12 @@
         "id": "mvar",
         "code": "multi-variable/code.html",
         "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FMulti-variable%20Linear%20Regression%20Demo.ipynb"
+    },
+    {
+    	"image": "load-factor/img.png",
+        "name": "Load factor analysis",
+        "id": "loadfactor",
+        "code": "load-factor/code.html",
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=Load%20Factor%20Analysis.ipynb"
     }
 ]
