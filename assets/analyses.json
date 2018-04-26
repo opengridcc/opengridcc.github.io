@@ -33,5 +33,12 @@
         "id": "loadfactor",
         "code": "load-factor/code.html",
         "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=Load%20Factor%20Analysis.ipynb"
+    },
+    {
+        "image": "load-duration-curve/img.png",
+        "name": "Load Duration Curve",
+        "id": "loaddurationcurve",
+        "code": "load-duration-curve/code.html",
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FLoad%20Duration%20Curve.ipynb"
     }
 ]
