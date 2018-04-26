@@ -32,7 +32,7 @@
         "name": "Load factor analysis",
         "id": "loadfactor",
         "code": "load-factor/code.html",
-        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=Load%20Factor%20Analysis.ipynb"
+        "binderUrl": "https://mybinder.org/v2/gh/opengridcc/opengrid-demo/master?filepath=notebooks%2FLoad%20Factor%20Analysis.ipynb"
     },
     {
         "image": "load-duration-curve/img.png",
